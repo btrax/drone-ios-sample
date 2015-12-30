@@ -14,6 +14,22 @@
 		664A46971C1F88E200076667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664A46951C1F88E200076667 /* LaunchScreen.storyboard */; };
 		664A46A21C1F88E200076667 /* drone_tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A46A11C1F88E200076667 /* drone_tutorialTests.swift */; };
 		664A46AD1C1F88E200076667 /* drone_tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A46AC1C1F88E200076667 /* drone_tutorialUITests.swift */; };
+		664A46CC1C1F893900076667 /* curl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A46BB1C1F893900076667 /* curl.framework */; };
+		664A46CD1C1F893900076667 /* json.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A46BC1C1F893900076667 /* json.framework */; };
+		664A46CE1C1F893900076667 /* libARCommands.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A46BD1C1F893900076667 /* libARCommands.framework */; };
+		664A46CF1C1F893900076667 /* libARController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A46BE1C1F893900076667 /* libARController.framework */; };
+		664A46D01C1F893900076667 /* libARDataTransfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A46BF1C1F893900076667 /* libARDataTransfer.framework */; };
+		664A46D11C1F893900076667 /* libARDiscovery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A46C01C1F893900076667 /* libARDiscovery.framework */; };
+		664A46D21C1F893900076667 /* libARMavlink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A46C11C1F893900076667 /* libARMavlink.framework */; };
+		664A46D31C1F893900076667 /* libARMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A46C21C1F893900076667 /* libARMedia.framework */; };
+		664A46D41C1F893900076667 /* libARNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A46C31C1F893900076667 /* libARNetwork.framework */; };
+		664A46D51C1F893900076667 /* libARNetworkAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A46C41C1F893900076667 /* libARNetworkAL.framework */; };
+		664A46D61C1F893900076667 /* libARSAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A46C51C1F893900076667 /* libARSAL.framework */; };
+		664A46D71C1F893900076667 /* libARStream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A46C61C1F893900076667 /* libARStream.framework */; };
+		664A46D81C1F893900076667 /* libARUpdater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A46C71C1F893900076667 /* libARUpdater.framework */; };
+		664A46D91C1F893900076667 /* libARUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A46C81C1F893900076667 /* libARUtils.framework */; };
+		664A46DA1C1F893900076667 /* libressl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A46C91C1F893900076667 /* libressl.framework */; };
+		664A46E21C1FDF4500076667 /* DTDrone.m in Sources */ = {isa = PBXBuildFile; fileRef = 664A46E11C1FDF4500076667 /* DTDrone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +63,24 @@
 		664A46A81C1F88E200076667 /* drone-tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "drone-tutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		664A46AC1C1F88E200076667 /* drone_tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drone_tutorialUITests.swift; sourceTree = "<group>"; };
 		664A46AE1C1F88E200076667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664A46BB1C1F893900076667 /* curl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = curl.framework; sourceTree = "<group>"; };
+		664A46BC1C1F893900076667 /* json.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = json.framework; sourceTree = "<group>"; };
+		664A46BD1C1F893900076667 /* libARCommands.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARCommands.framework; sourceTree = "<group>"; };
+		664A46BE1C1F893900076667 /* libARController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARController.framework; sourceTree = "<group>"; };
+		664A46BF1C1F893900076667 /* libARDataTransfer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARDataTransfer.framework; sourceTree = "<group>"; };
+		664A46C01C1F893900076667 /* libARDiscovery.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARDiscovery.framework; sourceTree = "<group>"; };
+		664A46C11C1F893900076667 /* libARMavlink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARMavlink.framework; sourceTree = "<group>"; };
+		664A46C21C1F893900076667 /* libARMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARMedia.framework; sourceTree = "<group>"; };
+		664A46C31C1F893900076667 /* libARNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARNetwork.framework; sourceTree = "<group>"; };
+		664A46C41C1F893900076667 /* libARNetworkAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARNetworkAL.framework; sourceTree = "<group>"; };
+		664A46C51C1F893900076667 /* libARSAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARSAL.framework; sourceTree = "<group>"; };
+		664A46C61C1F893900076667 /* libARStream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARStream.framework; sourceTree = "<group>"; };
+		664A46C71C1F893900076667 /* libARUpdater.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARUpdater.framework; sourceTree = "<group>"; };
+		664A46C81C1F893900076667 /* libARUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARUtils.framework; sourceTree = "<group>"; };
+		664A46C91C1F893900076667 /* libressl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libressl.framework; sourceTree = "<group>"; };
+		664A46DD1C1F8A0B00076667 /* drone-tutorial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "drone-tutorial-Bridging-Header.h"; sourceTree = "<group>"; };
+		664A46E11C1FDF4500076667 /* DTDrone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTDrone.m; sourceTree = "<group>"; };
+		664A46E31C1FDF5500076667 /* DTDrone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTDrone.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664A46CE1C1F893900076667 /* libARCommands.framework in Frameworks */,
+				664A46D81C1F893900076667 /* libARUpdater.framework in Frameworks */,
+				664A46CD1C1F893900076667 /* json.framework in Frameworks */,
+				664A46D31C1F893900076667 /* libARMedia.framework in Frameworks */,
+				664A46D21C1F893900076667 /* libARMavlink.framework in Frameworks */,
+				664A46D41C1F893900076667 /* libARNetwork.framework in Frameworks */,
+				664A46CC1C1F893900076667 /* curl.framework in Frameworks */,
+				664A46D61C1F893900076667 /* libARSAL.framework in Frameworks */,
+				664A46DA1C1F893900076667 /* libressl.framework in Frameworks */,
+				664A46D01C1F893900076667 /* libARDataTransfer.framework in Frameworks */,
+				664A46D51C1F893900076667 /* libARNetworkAL.framework in Frameworks */,
+				664A46D11C1F893900076667 /* libARDiscovery.framework in Frameworks */,
+				664A46CF1C1F893900076667 /* libARController.framework in Frameworks */,
+				664A46D71C1F893900076667 /* libARStream.framework in Frameworks */,
+				664A46D91C1F893900076667 /* libARUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +130,7 @@
 				664A46A01C1F88E200076667 /* drone-tutorialTests */,
 				664A46AB1C1F88E200076667 /* drone-tutorialUITests */,
 				664A468A1C1F88E200076667 /* Products */,
+				664A46DD1C1F8A0B00076667 /* drone-tutorial-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +147,8 @@
 		664A468B1C1F88E200076667 /* drone-tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				664A46E01C1FDF2A00076667 /* DTDrone */,
+				664A46BA1C1F893900076667 /* ARSDK3_iOS_3_7_5 */,
 				664A468C1C1F88E200076667 /* AppDelegate.swift */,
 				664A468E1C1F88E200076667 /* ViewController.swift */,
 				664A46901C1F88E200076667 /* Main.storyboard */,
@@ -123,6 +175,37 @@
 				664A46AE1C1F88E200076667 /* Info.plist */,
 			);
 			path = "drone-tutorialUITests";
+			sourceTree = "<group>";
+		};
+		664A46BA1C1F893900076667 /* ARSDK3_iOS_3_7_5 */ = {
+			isa = PBXGroup;
+			children = (
+				664A46BB1C1F893900076667 /* curl.framework */,
+				664A46BC1C1F893900076667 /* json.framework */,
+				664A46BD1C1F893900076667 /* libARCommands.framework */,
+				664A46BE1C1F893900076667 /* libARController.framework */,
+				664A46BF1C1F893900076667 /* libARDataTransfer.framework */,
+				664A46C01C1F893900076667 /* libARDiscovery.framework */,
+				664A46C11C1F893900076667 /* libARMavlink.framework */,
+				664A46C21C1F893900076667 /* libARMedia.framework */,
+				664A46C31C1F893900076667 /* libARNetwork.framework */,
+				664A46C41C1F893900076667 /* libARNetworkAL.framework */,
+				664A46C51C1F893900076667 /* libARSAL.framework */,
+				664A46C61C1F893900076667 /* libARStream.framework */,
+				664A46C71C1F893900076667 /* libARUpdater.framework */,
+				664A46C81C1F893900076667 /* libARUtils.framework */,
+				664A46C91C1F893900076667 /* libressl.framework */,
+			);
+			path = ARSDK3_iOS_3_7_5;
+			sourceTree = "<group>";
+		};
+		664A46E01C1FDF2A00076667 /* DTDrone */ = {
+			isa = PBXGroup;
+			children = (
+				664A46E31C1FDF5500076667 /* DTDrone.h */,
+				664A46E11C1FDF4500076667 /* DTDrone.m */,
+			);
+			name = DTDrone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664A46E21C1FDF4500076667 /* DTDrone.m in Sources */,
 				664A468F1C1F88E200076667 /* ViewController.swift in Sources */,
 				664A468D1C1F88E200076667 /* AppDelegate.swift in Sources */,
 			);
@@ -397,10 +481,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/drone-tutorial/ARSDK3_iOS_3_7_5",
+				);
 				INFOPLIST_FILE = "drone-tutorial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.btrax.drone-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "drone-tutorial-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -408,10 +500,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/drone-tutorial/ARSDK3_iOS_3_7_5",
+				);
 				INFOPLIST_FILE = "drone-tutorial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.btrax.drone-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "drone-tutorial-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +581,7 @@
 				664A46B31C1F88E200076667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		664A46B41C1F88E200076667 /* Build configuration list for PBXNativeTarget "drone-tutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +590,7 @@
 				664A46B61C1F88E200076667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		664A46B71C1F88E200076667 /* Build configuration list for PBXNativeTarget "drone-tutorialUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +599,7 @@
 				664A46B91C1F88E200076667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
